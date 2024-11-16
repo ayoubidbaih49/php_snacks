@@ -47,7 +47,7 @@ if($sexe == "men"){
  echo "you are a women";
 };
 echo "<br>";
-// Exercice 6
+
 
 
 
