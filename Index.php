@@ -80,8 +80,30 @@ if($age >= 18)
    echo 'Vous êtes majeur.';
 else
    echo 'Vous êtes mineur.';
+echo "<br>";
+// Exercice 9
+// En utilisant deux boucles for, écrire un script qui produit le résultat ci-dessous.
 
+for ( $i=1; $i<6; $i++){
+   for ($j = 0; $j < $i ; $j++) {
+      echo $i ;    
+      }
+      echo "<br>";
+   
+}
+echo "<br>";
+/* Exercice 10
+Déclarer une variable de type array qui stocke les informations suivantes :
 
+France : Paris
+Allemagne : Berlin
+Italie : Rome
+Afficher les valeurs de tous les éléments du tableau en utilisant la boucle foreach. */
+$langarray = ["France"=>"Rome","Allemagne"=>"Berlin","Italie"=>"Paris"];
+
+foreach ($langarray as $value){
+ echo $value;
+}
 
 
 
